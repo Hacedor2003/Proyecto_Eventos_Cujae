@@ -122,7 +122,7 @@ public class Login extends JFrame {
 			public void actionPerformed(ActionEvent e) {
 				String user = txtIngreseSuNombre.getText();
 				String password = passwordField.getText();
-				if((user.equalsIgnoreCase("Solange")&&password.equalsIgnoreCase("123890"))||(user.equalsIgnoreCase("Aleksardr")&&password.equalsIgnoreCase("1245"))||user.equalsIgnoreCase("Amanada")&&password.equalsIgnoreCase("1234")){
+				if((user.equalsIgnoreCase("Solange")&&password.equalsIgnoreCase("123890"))||(user.equalsIgnoreCase("Aleksardr")&&password.equalsIgnoreCase("123456"))||user.equalsIgnoreCase("Amanada")&&password.equalsIgnoreCase("1234")||user.equalsIgnoreCase("Bryan")&&password.equalsIgnoreCase("121212")){
 					MainScreen c = new MainScreen();
 					c.setVisible(true);
 					dispose();
