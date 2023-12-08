@@ -74,11 +74,6 @@ public class Developers extends JDialog {
 		panel.setBounds(127, 26, 180, 204);
 		contentPanel.add(panel);
 		
-		JLabel lblSolangeHernndezRodrguez = new JLabel("Solange Hern\u00E1ndez Rodr\u00EDguez");
-		lblSolangeHernndezRodrguez.setFont(new Font("Tahoma", Font.PLAIN, 18));
-		lblSolangeHernndezRodrguez.setBounds(95, 256, 244, 22);
-		contentPanel.add(lblSolangeHernndezRodrguez);
-		
 		JLabel lblBryanLenierEspinosa = new JLabel("Bryan Lenier Espinosa Valino");
 		lblBryanLenierEspinosa.setFont(new Font("Tahoma", Font.PLAIN, 18));
 		lblBryanLenierEspinosa.setBounds(102, 304, 230, 22);
@@ -88,11 +83,6 @@ public class Developers extends JDialog {
 		lblAleksandrCastaedaMorales.setFont(new Font("Tahoma", Font.PLAIN, 18));
 		lblAleksandrCastaedaMorales.setBounds(96, 400, 241, 22);
 		contentPanel.add(lblAleksandrCastaedaMorales);
-		
-		JLabel lblMiguelAntonioAlfonzo = new JLabel("Miguel Antonio Alfonzo Menendez");
-		lblMiguelAntonioAlfonzo.setFont(new Font("Tahoma", Font.PLAIN, 18));
-		lblMiguelAntonioAlfonzo.setBounds(82, 448, 270, 22);
-		contentPanel.add(lblMiguelAntonioAlfonzo);
 		
 		JLabel lblAmandaFernndezMacas = new JLabel("Amanda Fern\u00E1ndez Mac\u00EDas");
 		lblAmandaFernndezMacas.setFont(new Font("Tahoma", Font.PLAIN, 18));

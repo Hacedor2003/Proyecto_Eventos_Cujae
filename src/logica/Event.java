@@ -146,7 +146,7 @@ public abstract class Event {
 		int cantidad = 0;
 
 		for (User u : users) {
-			if (u.getParticipacion()) {
+			if (u.getParticipation()) {
 				cantidad++;
 			}
 		}

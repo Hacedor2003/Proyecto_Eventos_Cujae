@@ -28,8 +28,6 @@ public class User implements Participated {
 	 *            Nombre del usuario
 	 * @param apellido
 	 *            Apellido del usuario
-	 * @param cedula
-	 *            Documento de identidad del usuario
 	 * @param telefono
 	 *            Teléfono del usuario
 	 * @param nombreUsuario
@@ -40,7 +38,7 @@ public class User implements Participated {
 	 *            Área a la que pertenece el usuario
 	 * @param ID 
 	 */
-	public User(String name, String lastName, String cedula,
+	public User(String name, String lastName,
 			String telephone_number, String nombreUsuario, String contrasena, Area area, String ID) {
 		this.name = name;
 		this.lastName = lastName;
@@ -219,7 +217,7 @@ public class User implements Participated {
 	 * 
 	 * @return Participated
 	 */
-	public boolean getParticipacion() {
+	public boolean getParticipation() {
 		return participo;
 	}
 
@@ -228,7 +226,9 @@ public class User implements Participated {
 	 * 
 	 * @param Participated
 	 */
-	public void setParticipacion(boolean participo) {
+	public void setParticipation(boolean participo) {
 		this.participo = participo;
 	}
+	
 }
+
